@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a[5],i,*x;
+    cout<<"display the address:"<<"\n";
+    for(i=0;i<5;i++)
+    {
+        cout<<"the address is a["<<i<<"]:"<<&a[i]<<"\n";
+    }
+    x=a;
+    cout<<"the numbers are:";
+    for(i=0;i<5;i++)
+    {
+        cout<<a[i]<<"\t";
+        
+    }
+    return 0;
+    
+}
